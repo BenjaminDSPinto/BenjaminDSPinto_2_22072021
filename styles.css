@@ -397,6 +397,43 @@ figure {
     object-fit: cover;
   }
 
+  footer {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+  footer h5 {
+    font-size: 1.2vw;
+    margin-bottom: 1.4em;
+    padding: 0;
+  }
+  footer ul {
+    padding: 0;
+  }
+  footer ul li {
+    list-style-type: none;
+    margin-bottom: 1.2em;
+    font-size: 1.1vw;
+  }
+  .apropos {
+    margin-right: 13vw;
+    margin-left: 3.5vw;
+  }
+  .hebergementsfooter {
+    margin-right: 13vw;
+    margin-left: 3.5vw;
+  }
+  .assistance {
+    margin-right: 13vw;
+    margin-left: 3.5vw;
+  }
+  .apropos ul li:hover,
+  .foothebergements ul li:hover,
+  .assistance ul li:hover {
+    font-weight: bolder;
+  }
 
 
   
