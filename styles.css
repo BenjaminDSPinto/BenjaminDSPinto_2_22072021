@@ -1,0 +1,203 @@
+
+
+* {
+    margin: 0;
+  }
+html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.logo {
+    margin: 3vw 3vw 1.5vw 3.3vw;
+    width: 100px;
+    height: auto;
+  }
+
+.navigationmobile {
+    display: flex;
+  }
+
+nav {
+    display: flex;
+    padding-right: 0;
+  }
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-right: 2vw;
+  }
+
+nav ul li {
+    border-top: solid 2.5px transparent;
+    padding: 38px 30px 0 30px;
+  }
+
+nav ul li:hover {
+    border-top: solid 2.5px #0065fc;
+  }
+
+.menuitem a:hover {
+    color: #0065fc;
+  }
+
+.sinscrire {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #0065fc;
+    float: right;
+    margin-right: 5vw;
+    padding-top: 38px;
+  }
+
+.recherche {
+    margin-left: 3.3vw;
+  }
+
+.recherche h1 {
+    font-size: 22px;
+    margin-top: 1vw;
+    margin-right: 20px;
+    clear: left;
+  }
+
+.recherche p {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+.search {
+    display: flex;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+.mapmarker {
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 1.2em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+.searchfield {
+    width: 12rem;
+    border-top: solid #f2f2f2 1px;
+    border-bottom: solid #f2f2f2 1px;
+    border-left: none;
+    border-right: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    padding-left: 20px;
+  }
+
+.searchbutton {
+    width: 132px;
+    background-color: #0065fc;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+  }
+
+.filter {
+    margin-left: 3.3vw;
+  }
+
+.filtres {
+    margin-bottom: 20px;
+  }
+
+.filterstitle {
+    float: left;
+    margin-right: 2.2vw;
+    padding-top: 15px;
+  }
+
+.icontextfilters {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 1.5vmax;
+    border-top: solid #e0e0e0 2px;
+    border-right: solid #e0e0e0 2px;
+    border-bottom: solid #e0e0e0 2px;
+    border-left: none;
+    border-radius: 60px;
+    padding: 0.9em;
+    padding-left: 0;
+  }
+
+.icontextfilters:hover {
+    background-color: #f1f7ff;
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+
+.filtericon {
+    background-color: #deebff;
+    padding: 17px 16px 17px 18px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #0065fc;
+  }
+
+.filtericonfamilial {
+    background-color: #deebff;
+    padding: 16px 18px 17px 20px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #0065fc;
+  }
+
+.filtericoneconomique {
+    background-color: #deebff;
+    padding: 17px 15px 17px 16px;
+    margin-right: 15px;
+    border-radius: 50%;
+    color: #0065fc;
+  }
+
+.infoicon {
+    float: left;
+    margin-right: 12px;
+    font-size: 0.8em;
+    border: solid #f2f2f2 2px;
+    border-radius: 50%;
+    color: #0065fc;
+    padding: 0.4em 0.85em;
+  }
+
+.filter p {
+    margin-top: 28px;
+    font-size: 1em;
+  }
+
+
+
+
+  
