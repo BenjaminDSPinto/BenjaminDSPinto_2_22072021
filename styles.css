@@ -123,7 +123,7 @@ nav ul li:hover {
     position: relative;
     cursor: pointer;
   }
-
+  
 .filter {
     margin-left: 3.3vw;
   }
@@ -318,6 +318,83 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+figure {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px rgb(230, 230, 230);
+  }
+  figure:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+  }
+  figcaption {
+    font-weight: bold;
+    font-size: 1.2vmax;
+    margin-left: 1.4em;
+    margin-top: 0.3em;
+  }
+  #Activites h2 {
+    margin: 4vw 2.2vw 2vw 3.5vw;
+  }
+  .sectionactivites {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3.3vw 3.5vw;
+    height: 31.5vw;
+  }
+  .boxactivites_1 {
+      display: flex;
+      padding: 0;
+  }
+  .boxactivites_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+  }
+  .boxactivites_a {
+    width: 21vw;
+    padding: 0;
+    margin: 0;
+  }
+  .boxactivites_b {
+    width: 21vw;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .boxactivites_c {
+    width: 21vw;
+    height: 41%;
+    padding: 0;
+    margin: 0;
+  }
+  .imageactivites_a {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 85%;
+    padding-bottom: 10px;
+    object-fit: cover;
+  }
+  .imageactivites_b {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 70%;
+    padding-bottom: 10px;
+    object-fit: cover;
+  }
+  .imageactivites_c {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 63%;
+    padding-bottom: 10px;
+    object-fit: cover;
   }
 
 
